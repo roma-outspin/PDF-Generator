@@ -2,6 +2,7 @@
 //—обрана из примеров от создателей библиотеки
 //FreeSpire.PDF
 //https://www.e-iceblue.com/
+//https://github.com/eiceblue/Spire.PDF-for-.NET/tree/master/CS
 
 using System;
 using System.Collections.Generic;

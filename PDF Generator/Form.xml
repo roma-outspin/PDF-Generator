@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<form>
+  <section name = "Customer Information">
+    <field required="true" type ="text" label="Email" id="id"></field>
+    <field required="true" type ="text" label="Username" id="username"></field>
+    <field required="true" type ="password" label="Password" id="password"></field>
+    <field required="true" type ="password" label="Confirm Password" id="password2"></field>
+    <field type ="list" label="Email Format" id="email_format" multiple ="true">
+      <item>Text</item>
+      <item>HTML</item>
+      <item>Attachment</item>
+
+    </field>
+  </section>
+
+  <section name = "Bill To Information">
+    <field type ="text" label="Company Name" id="company_name"></field>
+    <field type ="list" label="Title" id="title" multiple ="true">
+      <item>Mr.</item>
+      <item>Mrs.</item>
+      <item>Miss.</item>
+      <item>Ms.</item>
+      <item>Dr.</item>
+      <item>Prof.</item>
+    </field>
+  </section>
+</form>
+  
